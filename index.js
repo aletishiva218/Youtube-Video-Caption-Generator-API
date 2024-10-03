@@ -35,7 +35,7 @@ app.post('/api/captions', async (req, res) => {
           }));
     return res.json(formattedCaptions);
     } catch (error) {
-        return res.status(500).json({ error: 'Failed to fetch captions' });
+        return res.status(500).json({ error: 'Failed to fetch captions',err:error });
     }
 });
 
