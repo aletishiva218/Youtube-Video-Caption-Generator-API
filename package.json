@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
-  "description": "",
+  "description": "A simple API to fetch YouTube video captions by link",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.21.0",
     "youtube-captions-scraper": "^2.0.3"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
